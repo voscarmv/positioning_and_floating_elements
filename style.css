@@ -31,6 +31,8 @@ body{
   right: 0;
   vertical-align:middle;
   z-index: 2;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
 }
 
 .pienav{
@@ -40,6 +42,7 @@ body{
 	bottom: 0;
 	left: 0;
   right: 0;
+  z-index: 2;
 }
 
 main{
@@ -103,7 +106,7 @@ header{
   background-color: darkred;
 }
 
-.article-text-section, .figure-1{
+.article-text-section, .story-meta .figure-1{
   background-color: pink;
   margin-left: auto;
   margin-right: auto;
@@ -114,6 +117,24 @@ header{
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.inflation-image-parent{
+  background-color: green;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inflation-img-container{
+  position: relative;
+}
+
+.img-paragraph{
+  width:200px;
+  position: absolute;
+  top:0;
+  left:0;
 }
 
 .yt-video {
@@ -257,13 +278,13 @@ header{
   width: 220px;
 }
 
-.nav-right-buttons{
+.nav-left-buttons{
   float: left;
   margin-left: 20px;
   margin-top: 10px;
 }
 
-.nav-left-buttons{
+.nav-right-buttons{
   float: right;
   margin-right: 20px;
   margin-top: 10px;
@@ -277,4 +298,8 @@ header{
 .space-cosmo a{
   text-decoration: none;
   color: black;
+}
+
+.inflation-img{
+  width: 100%;
 }
