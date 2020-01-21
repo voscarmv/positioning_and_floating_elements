@@ -54,15 +54,19 @@ header{
 }
 
 .title{
-  background-color: red;
+  background-color: white;
+  width: 387px;
+  margin-left: 200px;
 }
 
 .picture{
-  background-color: pink;
+  background-color: white;
+  width: 900px;
+  margin: auto;
 }
 
 .text-below-picture{
-  background-color: orange;
+  background-color: white;
 }
 
 .editor-social-date-container{
@@ -112,7 +116,7 @@ header{
   margin-right: auto;
 }
 
-.paragraphs-section, .yt-video-container ,.picture-container, .social-info-section{
+.paragraphs-section, .yt-video-container ,.picture-container, .social-info-section, .editor-social-date-container{
   background-color: green;
   width: 600px;
   margin-left: auto;
@@ -143,7 +147,7 @@ header{
 }
 
 #picture-telescope{
-  width:600px;
+  width: 600px;
 }
 
 .social-container-buttons li{
@@ -302,4 +306,18 @@ header{
 
 .inflation-img{
   width: 100%;
+}
+
+#article-title{
+  width: 387px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.title-picture{
+  width: 900px;
+}
+
+.social-media, .date{
+  display: inline-block;
 }
