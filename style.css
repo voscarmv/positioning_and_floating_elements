@@ -210,8 +210,10 @@ header{
 }
 
 .article-thumbnail-image{
+ box-sizing: border-box;
  float: left;
  width: 300px;
+ padding: 30px;
 }
 
 .thumb-img{
@@ -237,6 +239,13 @@ header{
   height: 300px;
 }
 
+.articles-thumbnails-container:after{
+    content: ".";
+  	display: block;
+  	height: 0;
+  	clear: both;
+  	visibility: hidden;
+}
 
 .most-popular-container{
   background-color: pink;
@@ -244,13 +253,21 @@ header{
   width: 31vw;
 }
 
-/* .thumbs-container:after{
+.most-popular-container:after{
   content: ".";
 	display: block;
 	height: 0;
 	clear: both;
 	visibility: hidden;
-} */
+}
+
+.thumbs-container:after{
+  content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
 
 .other-articles-container:after{
   content: ".";
@@ -259,6 +276,10 @@ header{
 	clear: both;
 	visibility: hidden;
   background-color: darkblue;
+}
+
+.other-articles-container{
+  background-color: green;
 }
 
 .thumbs-container{
