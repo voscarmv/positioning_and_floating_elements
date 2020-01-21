@@ -135,10 +135,19 @@ header{
 }
 
 .img-paragraph{
-  width:200px;
+  width:225px;
+  float:left;
+  margin-top: 180px;
+  /* position: absolute; */
+  /* top:0;
+  left:0; */
+}
+
+.paragraphs-container{
   position: absolute;
-  top:0;
+  top: 0;
   left:0;
+  /* margin-top: -100px; */
 }
 
 .yt-video {
