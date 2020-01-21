@@ -2,18 +2,81 @@
   height: 50px;
   background: lightblue;
   text-align: center;
-  position: fixed; 
-	top: 0; 
-	left: 0; 
-  right: 0; 
+  position: fixed;
+	top: 0;
+	left: 0;
+  right: 0;
   vertical-align:middle;
 }
 
 .pienav{
   height: 50px;
   background: lightblue;
-  position: fixed; 
-	bottom: 0; 
-	left: 0; 
-  right: 0; 
+  position: fixed;
+	bottom: 0;
+	left: 0;
+  right: 0;
+}
+
+.barranav{
+  background-color: blue;
+}
+
+.title{
+  background-color: red;
+}
+
+.picture{
+  background-color: pink;
+}
+
+.text-below-picture{
+  background-color: orange;
+}
+
+.editor-social-date-container{
+  background-color: gray;
+}
+
+.editor-name{
+  background-color: purple;
+}
+
+.social-media{
+  background-color: lightgreen;
+}
+
+.date{
+  background-color: lightblue;
+}
+
+.text-1{
+  background-color: goldenrod;
+}
+
+.unblock-more-free-account{
+  background-color: red;
+}
+
+.editors-right-side{
+  background-color: yellow;
+}
+
+.theory-of-inflation{
+  background-color: darkgreen;
+}
+
+.text-2{
+  background-color: darkred;
+}
+
+.article-text-section-1{
+  background-color: pink;
+  margin-left: auto;
+  martin-right: auto;
+}
+
+.paragraphs-section-1{
+  background-color: green;
+  width: 600px;
 }
