@@ -94,7 +94,7 @@ header{
 }
 
 .editors-right-side{
-  background-color: yellow;
+  background-color: transparent;
   position: absolute;
 	top: 0;
   right: 0;
@@ -141,6 +141,25 @@ header{
   /* position: absolute; */
   /* top:0;
   left:0; */
+}
+
+.small-hr{
+  width: 70px;
+  color: black;
+  /* align: left; */
+  margin-left: 0;
+  /* float:left; */
+  border: 0.5px solid black;
+}
+
+.img-auths{
+  /* clear:left; */
+}
+
+.inflation-image-author{
+  position:relative;
+  float: left;
+  top: -70px;
 }
 
 .paragraphs-container{
@@ -206,6 +225,10 @@ header{
  width: 300px;
 }
 
+.thumb-img{
+  width: 100%;
+}
+
 .articles-thumbnails-container{
   /* content: ".";
 	display: block;
@@ -232,13 +255,13 @@ header{
   width: 31vw;
 }
 
-.thumbs-container:after{
+/* .thumbs-container:after{
   content: ".";
 	display: block;
 	height: 0;
 	clear: both;
 	visibility: hidden;
-}
+} */
 
 .other-articles-container:after{
   content: ".";
@@ -246,6 +269,7 @@ header{
 	height: 0;
 	clear: both;
 	visibility: hidden;
+  background-color: darkblue;
 }
 
 .thumbs-container{
