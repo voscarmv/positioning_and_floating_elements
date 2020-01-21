@@ -7,6 +7,7 @@
 	left: 0;
   right: 0;
   vertical-align:middle;
+  z-index: 2;
 }
 
 .pienav{
@@ -16,6 +17,10 @@
 	bottom: 0;
 	left: 0;
   right: 0;
+}
+
+main{
+  margin: 70px 0;
 }
 
 .barranav{
@@ -63,6 +68,7 @@
   position: absolute;
 	top: 50%;
   right: 0;
+  z-index: 1;
 }
 
 .theory-of-inflation{
@@ -79,7 +85,7 @@
   margin-right: auto;
 }
 
-.paragraphs-section, .yt-video-container{
+.paragraphs-section, .yt-video-container ,.picture-container, .social-info-section{
   background-color: green;
   width: 600px;
   margin-left: auto;
@@ -89,4 +95,16 @@
 .yt-video {
   width: 100%;
   height: 100%;
+}
+
+#picture-telescope{
+  width:600px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+.read-sn-butto{
+ display: inline-block;
 }
