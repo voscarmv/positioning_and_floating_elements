@@ -69,19 +69,24 @@
   background-color: darkgreen;
 }
 
-.text-2{
+.text, .text-2{
   background-color: darkred;
 }
 
-.article-text-section-1, .article-text-section-2 , .article-text-section-3{
+.article-text-section, .figure-1{
   background-color: pink;
   margin-left: auto;
   margin-right: auto;
 }
 
-.paragraphs-section-1, .paragraphs-section-2, .paragraphs-section-3{
+.paragraphs-section, .yt-video-container{
   background-color: green;
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.yt-video {
+  width: 100%;
+  height: 100%;
 }
