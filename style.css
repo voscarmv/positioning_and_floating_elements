@@ -140,6 +140,22 @@ main{
   width: 70vw;
 }
 
+/* .articles-thumbnails-container, .most-popular-container{
+  display:inline-block;
+} */
+
+.articles-thumbnails-container{
+  float:left;
+  height: 300px;
+}
+
+
+.most-popular-container{
+  background-color: pink;
+  float: right;
+  width: 26vw;
+}
+
 .thumbs-container:after{
   content: ".";
 	display: block;
@@ -150,7 +166,7 @@ main{
 
 .thumbs-container{
   background-color: fuchsia;
-  width: 70vw;
+  width: 66vw;
 }
 
 .img1 {
