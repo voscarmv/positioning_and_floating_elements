@@ -69,21 +69,11 @@ header{
   background-color: white;
 }
 
-.editor-social-date-container{
-  background-color: gray;
-}
-
 .editor-name{
-  background-color: purple;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-.social-media{
-  background-color: lightgreen;
-}
-
-.date{
-  background-color: lightblue;
-}
 
 .text-1{
   background-color: goldenrod;
@@ -117,7 +107,6 @@ header{
 }
 
 .paragraphs-section, .yt-video-container ,.picture-container, .social-info-section, .editor-social-date-container{
-  background-color: green;
   width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -353,4 +342,24 @@ header{
 
 .social-media, .date{
   display: inline-block;
+}
+
+.icons-buttons{
+  width: 18px;
+}
+
+.social-media{
+  float: right;
+}
+
+.date{
+  float: left;
+}
+
+.date-social:after{
+  content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
