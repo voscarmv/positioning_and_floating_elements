@@ -101,10 +101,80 @@ main{
   width:600px;
 }
 
-ul li{
+.social-container-buttons li{
   display: inline-block;
 }
 
-.read-sn-butto{
+.comments-button, .social-container-buttons{
  display: inline-block;
+}
+
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.article-thumbnail-image{
+ float: left;
+ width: 250px;
+}
+
+.articles-thumbnails-container{
+  /* content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden; */
+  background-color: darkgray;
+  width: 70vw;
+}
+
+.thumbs-container:after{
+  content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.thumbs-container{
+  background-color: fuchsia;
+  width: 70vw;
+}
+
+.img1 {
+  background-color: red;
+  /* float:left; */
+}
+.img2 {
+  background-color: blue;
+  /* float:left; */
+}
+.img3 {
+  background-color: orange;
+  /* float:left; */
+}
+.img4 {
+  background-color: pink;
+ /* clear:left; */
+  /* float:left; */
+}
+.img5 {
+  background-color: purple;
+  /* float:left; */
+}
+.img6 {
+  background-color: gray;
+  /* float:left; */
 }
