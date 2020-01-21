@@ -3,12 +3,23 @@ body{
 }
 
 .editors-right-side{
-  display: inline-block;
-  vertical-align: middle;
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+  width: 150px;
 }
 
 .editors-choice-content{
   /* display: inline-block; */
+  position: absolute;
+  top: 50%;
+}
+
+.editor-choice-side:after{
+  content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
 
 .barranav{
