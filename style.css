@@ -20,7 +20,11 @@
 }
 
 main{
-  margin: 70px 0;
+  margin-bottom: 70px;
+}
+
+header{
+  margin-top: 70px;
 }
 
 .barranav{
