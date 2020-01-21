@@ -1,3 +1,16 @@
+body{
+  position:relative;
+}
+
+.editors-right-side{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.editors-choice-content{
+  /* display: inline-block; */
+}
+
 .barranav{
   height: 50px;
   background: lightblue;
@@ -70,8 +83,9 @@ header{
 .editors-right-side{
   background-color: yellow;
   position: absolute;
-	top: 50%;
+	top: 0;
   right: 0;
+  height: 100%;
   z-index: 1;
 }
 
@@ -113,7 +127,25 @@ header{
  display: inline-block;
 }
 
+.bottom-menu-section-container, .bottom-menu-section{
+  display: inline-block;
+  vertical-align: top;
+}
 
+.bottom-menu-section-container{
+  background-color: red;
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+.bottom-menu-section{
+  background-color: purple;
+  width: 16.2%;
+}
+
+/* .bottom-menu-section{
+  float:left;
+} */
 
 .videoWrapper {
 	position: relative;
@@ -131,7 +163,7 @@ header{
 
 .article-thumbnail-image{
  float: left;
- width: 250px;
+ width: 300px;
 }
 
 .articles-thumbnails-container{
@@ -141,7 +173,7 @@ header{
 	clear: both;
 	visibility: hidden; */
   background-color: darkgray;
-  width: 70vw;
+  width: 66vw;
 }
 
 /* .articles-thumbnails-container, .most-popular-container{
@@ -157,10 +189,18 @@ header{
 .most-popular-container{
   background-color: pink;
   float: right;
-  width: 26vw;
+  width: 31vw;
 }
 
 .thumbs-container:after{
+  content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.other-articles-container:after{
   content: ".";
 	display: block;
 	height: 0;
