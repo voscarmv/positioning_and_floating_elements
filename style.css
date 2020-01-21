@@ -73,13 +73,13 @@
   background-color: darkred;
 }
 
-.article-text-section-1, .article-text-section-2{
+.article-text-section-1, .article-text-section-2 , .article-text-section-3{
   background-color: pink;
   margin-left: auto;
   margin-right: auto;
 }
 
-.paragraphs-section-1, .paragraphs-section-2{
+.paragraphs-section-1, .paragraphs-section-2, .paragraphs-section-3{
   background-color: green;
   width: 600px;
   margin-left: auto;
