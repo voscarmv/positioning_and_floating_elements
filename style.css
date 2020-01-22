@@ -313,7 +313,7 @@ header {
   text-decoration: underline;
 }
 
-.more-articles-heading a:active {
+.bottom-menu a:active {
   color: black;
   text-decoration: underline;
 }
@@ -349,9 +349,6 @@ header {
   background-color: white;
   padding-left: 40px;
   width: 66vw;
-}
-
-.articles-thumbnails-container {
   float: left;
 }
 
