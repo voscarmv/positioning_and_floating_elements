@@ -236,7 +236,6 @@ header{
 
 .articles-thumbnails-container{
   float:left;
-  height: 300px;
 }
 
 .articles-thumbnails-container:after{
