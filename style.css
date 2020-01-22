@@ -123,9 +123,10 @@ header {
   font-weight: 700;
 }
 
-.editor-pick-link {
-  font-family: times, sans-serif;
-  font-size: 15px;
+.editor-pick-link1 {
+  width: 180px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .editor-pick-link1:link {
@@ -147,12 +148,8 @@ header {
   height: 75px;
   margin: 10px 0;
   display: inline-block;
-}
-
-.editor-pick-link1 {
-  width: 180px;
-  display: inline-block;
-  vertical-align: middle;
+  font-family: times, sans-serif;
+  font-size: 15px;
 }
 
 .theory-of-inflation {
@@ -231,6 +228,12 @@ header {
 
 .social-container-buttons {
   margin-left: 35%;
+}
+
+.thumb-title a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 500;
 }
 
 .bottom-menu-section-container,
@@ -542,12 +545,6 @@ header {
   text-align: right;
   font-size: 12px;
   color: gray;
-}
-
-.thumb-title a {
-  text-decoration: none;
-  font-size: 19px;
-  font-weight: 500;
 }
 
 .thumb-date {
