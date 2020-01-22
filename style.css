@@ -124,7 +124,7 @@ header {
 }
 
 .editor-pick-link {
-  font-family: times;
+  font-family: times, sans-serif;
   font-size: 15px;
 }
 
@@ -291,7 +291,7 @@ header {
 
 .bottom-menu li {
   margin: 5px;
-  font-family: arial;
+  font-family: arial, sans-serif;
   font-size: 13px;
 }
 
@@ -436,7 +436,7 @@ header {
 
 .space-cosmo {
   color: black;
-  font-family: arial;
+  font-family: arial, sans-serif;
   font-size: 12px;
   font-weight: 750;
 }
@@ -509,12 +509,12 @@ header {
 
 .more-articles-heading {
   margin-left: 10px;
-  font-family: arial;
+  font-family: arial, sans-serif;
   font-size: 16px;
 }
 
 .most-popular-heading {
-  font-family: arial;
+  font-family: arial, sans-serif;
   font-size: 16px;
 }
 
@@ -589,7 +589,7 @@ header {
 }
 
 .list-heading {
-  font-family: arial;
+  font-family: arial, sans-serif;
   font-size: 13px;
   font-weight: 750;
   margin-bottom: 8px;
