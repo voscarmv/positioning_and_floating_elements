@@ -213,7 +213,8 @@ header{
  box-sizing: border-box;
  float: left;
  width: 300px;
- padding: 30px;
+ height: 300px;
+ padding: 10px;
 }
 
 .thumb-img{
@@ -226,7 +227,8 @@ header{
 	height: 0;
 	clear: both;
 	visibility: hidden; */
-  background-color: darkgray;
+  background-color: white;
+  padding-left: 40px;
   width: 66vw;
 }
 
@@ -247,9 +249,9 @@ header{
 }
 
 .most-popular-container{
-  background-color: pink;
+  background-color: white;
   float: right;
-  width: 31vw;
+  width: 27vw;
 }
 
 .most-popular-container:after{
@@ -274,42 +276,16 @@ header{
 	height: 0;
 	clear: both;
 	visibility: hidden;
-  background-color: darkblue;
+  background-color: white;
 }
 
 .other-articles-container{
-  background-color: green;
+  background-color: white;
 }
 
 .thumbs-container{
-  background-color: fuchsia;
+  background-color: white;
   width: 66vw;
-}
-
-.img1 {
-  background-color: red;
-  /* float:left; */
-}
-.img2 {
-  background-color: blue;
-  /* float:left; */
-}
-.img3 {
-  background-color: orange;
-  /* float:left; */
-}
-.img4 {
-  background-color: pink;
- /* clear:left; */
-  /* float:left; */
-}
-.img5 {
-  background-color: purple;
-  /* float:left; */
-}
-.img6 {
-  background-color: gray;
-  /* float:left; */
 }
 
 #ui-icon{
@@ -382,4 +358,84 @@ header{
 	height: 0;
 	clear: both;
 	visibility: hidden;
+}
+
+.big-hr{
+  width: 98%;
+  border: 0.5px solid black;
+}
+
+.more-articles-heading{
+  margin-left:10px;
+  /* margin-bottom: -10px; */
+  font-family: arial;
+  font-size: 16px;
+}
+
+.most-popular-heading{
+  margin-bottom: -10px;
+  font-family: arial;
+  font-size: 16px;
+}
+
+.more-articles-heading a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+.more-articles-heading a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.more-articles-heading a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* selected link */
+.more-articles-heading a:active {
+  color: black;
+  text-decoration: underline;
+}
+
+
+.thumb-author{
+  text-align: right;
+  font-size: 12px;
+  color: gray;
+}
+
+.thumb-title a{
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 500;
+  /* color: black; */
+}
+
+.thumb-date{
+  font-size: 12px;
+  color: gray;
+}
+
+/* unvisited link */
+.thumb-title a:link {
+  color:black;
+}
+
+/* visited link */
+.thumb-title a:visited {
+  color: black;
+}
+
+/* mouse over link */
+.thumb-title a:hover {
+  color: darkgray;
+}
+
+/* selected link */
+.thumb-title a:active {
+  color: darkgray;
 }
