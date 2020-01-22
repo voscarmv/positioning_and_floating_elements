@@ -37,12 +37,13 @@ body{
 
 .pienav{
   height: 50px;
-  background: lightblue;
   position: fixed;
 	bottom: 0;
 	left: 0;
   right: 0;
   z-index: 2;
+  background-color: white;
+  border: 0.25px black solid;
 }
 
 main{
@@ -78,9 +79,26 @@ header{
 .text-1{
   background-color: goldenrod;
 }
+.text{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
 
 .unblock-more-free-account{
-  background-color: red;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.unblock-text{
+  font-weight: 500;
+  font: bold;
+}
+
+.create-text{
+  font-weight: 500;
+  font: bold;
+  color: darkblue;
 }
 
 .editors-right-side{
@@ -93,15 +111,10 @@ header{
 }
 
 .theory-of-inflation{
-  background-color: darkgreen;
-}
-
-.text, .text-2{
-  background-color: darkred;
+  background-color: white;
 }
 
 .article-text-section, .story-meta .figure-1{
-  background-color: pink;
   margin-left: auto;
   margin-right: auto;
 }
@@ -113,7 +126,7 @@ header{
 }
 
 .inflation-image-parent{
-  background-color: green;
+  background-color: white;
   width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -174,6 +187,12 @@ header{
 .comments-button, .social-container-buttons{
  display: inline-block;
 }
+
+.social-container-buttons{
+ margin-left: 35%;
+}
+
+
 
 .bottom-menu-section-container, .bottom-menu-section{
   display: inline-block;
@@ -438,4 +457,11 @@ header{
 /* selected link */
 .thumb-title a:active {
   color: darkgray;
+}
+
+#footer-title{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
