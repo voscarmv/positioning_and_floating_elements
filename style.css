@@ -111,10 +111,23 @@ header{
   width: 300px;
 }
 
-.editor-pick-img{
+.editor-pick-img {
   width: 75px;
-  float: left;
   height: auto;
+}
+
+.editor-pick-link{
+  height: 75px;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.editor-pick-link1{
+  width: 180px;
+  display: inline-block;
+  height: 75px;
+  box-sizing: border-box;
+  vertical-align: middle;
 }
 
 .theory-of-inflation{
@@ -208,6 +221,33 @@ header{
 
 .bottom-menu-foot li{
   display: inline-block;
+}
+
+.bottom-menu-section-foot{
+  width: 100%;
+}
+
+.bottom-menu-foot{
+  margin: 0 2%;
+  width: 90%;
+}
+
+.bottom-menu-foot a:link {
+  color:#a9a9a9;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* visited link */
+.bottom-menu-foot a:visited {
+  color: darkgray;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.bottom-menu-foot a:hover {
+  color: darkgray;
+  text-decoration: underline;
 }
 
 .bottom-menu-section-container{
