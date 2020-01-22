@@ -199,6 +199,10 @@ header{
   vertical-align: top;
 }
 
+.bottom-menu-foot li{
+  display: inline-block;
+}
+
 .bottom-menu-section-container{
   background-color: white;
   margin-bottom: 80px;
