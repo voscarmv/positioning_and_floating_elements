@@ -15,15 +15,15 @@ HTML5 and CSS3
 
 👤**Salvador Olvera**
 
-- Github: [@githubhandle](https://github.com/Salvador-ON)
-- Twitter: [@twitterhandle](https://twitter.com/Salvador_ON)
+- Github: [@Salvador-ON](https://github.com/Salvador-ON)
+- Twitter: [@Salvador-ON](https://twitter.com/Salvador_ON)
 - Linkedin: [linkedin](https://linkedin.com/in/salvador-o-13894052/
 )
 
 👤 **Oscar Mier**
 
-- Github: [@githubhandle](https://github.com/voscarmv)
-- Twitter: [@twitterhandle](https://twitter.com/voscarmv)
+- Github: [@voscarmv](https://github.com/voscarmv)
+- Twitter: [@voscarmv](https://twitter.com/voscarmv)
 - Linkedin: [linkedin](https://www.linkedin.com/in/oscar-mier-072984196/)
 
 *Link to the [live demo]()*
