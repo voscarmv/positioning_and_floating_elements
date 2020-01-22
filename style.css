@@ -8,7 +8,7 @@ body {
   top: 37%;
 }
 
-.editor-choice-side:after {
+.editor-choice-side::after {
   content: ".";
   display: block;
   height: 0;
@@ -352,7 +352,7 @@ header {
   float: left;
 }
 
-.articles-thumbnails-container:after {
+.articles-thumbnails-container::after {
   content: ".";
   display: block;
   height: 0;
@@ -367,7 +367,7 @@ header {
   width: 24vw;
 }
 
-.most-popular-container:after {
+.most-popular-container::after {
   content: ".";
   display: block;
   height: 0;
@@ -375,7 +375,7 @@ header {
   visibility: hidden;
 }
 
-.thumbs-container:after {
+.thumbs-container::after {
   content: ".";
   display: block;
   height: 0;
@@ -383,7 +383,7 @@ header {
   visibility: hidden;
 }
 
-.other-articles-container:after {
+.other-articles-container::after {
   content: ".";
   display: block;
   height: 0;
@@ -494,7 +494,7 @@ header {
   float: left;
 }
 
-.date-social:after {
+.date-social::after {
   content: ".";
   display: block;
   height: 0;
