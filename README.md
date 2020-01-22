@@ -26,4 +26,4 @@ HTML5 and CSS3
 - Twitter: [@voscarmv](https://twitter.com/voscarmv)
 - Linkedin: [linkedin](https://www.linkedin.com/in/oscar-mier-072984196/)
 
-*Link to the [live demo]()*
+*Link to the [live demo](https://rawcdn.githack.com/voscarmv/positioning_and_floating_elements/2c860b0ee688250683a5233bbc1ec2607badfc97/index.html)*
