@@ -71,7 +71,6 @@ header{
   margin-bottom: 20px;
 }
 
-
 .text-1{
   background-color: goldenrod;
 }
@@ -114,9 +113,11 @@ header{
 .editor-pick-img {
   width: 75px;
   height: auto;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.editor-pick-link{
+.editor-pick-link{ 
   height: 75px;
   margin: 10px 0;
   display: inline-block;
@@ -125,8 +126,6 @@ header{
 .editor-pick-link1{
   width: 180px;
   display: inline-block;
-  height: 75px;
-  box-sizing: border-box;
   vertical-align: middle;
 }
 
@@ -416,6 +415,7 @@ header{
   margin-left: 20px;
   margin-top: 10px;
   border: none;
+  background-color: white;
 }
 
 .nav-right-buttons{
