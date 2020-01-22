@@ -51,8 +51,8 @@ header {
 .title {
   background-color: white;
   width: 430px;
-  margin-bottom: 40px;
-  margin-left: 25%;
+  margin: auto;
+  padding-bottom: 20px;
 }
 
 .picture {
